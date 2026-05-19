@@ -1,11 +1,14 @@
-<p style="text-align:center;" align="center">
+<picture>
+  <p style="text-align:center;" align="center">
 <a href="https://meshery.io/">
 <picture align="center">
-<img src="./img/readme/meshery-logo-dark-text-side.svg#gh-light-mode-only" width="70%" />
-<img src="./img/readme/meshery-logo-light-text-side.svg#gh-dark-mode-only" width="70%" />
-</picture>
+<source media="(prefers-color-scheme: dark)" srcset="./img/readme/meshery-logo-dark-text-side.svg" width="70%" align="center" style="margin-bottom:20px;">
+<source media="(prefers-color-scheme: light)" srcset="./img/readme/meshery-logo-light-text-side.svg" width="70%" align="center" style="margin-bottom:20px;">
+<img alt="Shows an illustrated light mode meshery logo in light color mode and a dark mode meshery logo dark color mode." src="./img/readme/meshery-logo-light-text-side-new.svg" width="70%" align="center" style="margin-bottom:20px;"> </picture>
 </a>
-</p>
+
+<br/><br/></p>
+</picture>
 
 # Meshery Adapter for NGINX Service Mesh
 <div align="center">
@@ -31,9 +34,6 @@
 <a href="https://meshery.io"><picture><img src="./img/readme/meshery-logo-light-text.svg#gh-dark-mode-only"
 style="margin:10px;" width="10%" 
 alt="Meshery - the Cloud Native Manager" align="left" />
-<img src="./img/readme/meshery-logo-dark-text.svg#gh-light-mode-only"
-style="margin:10px;" width="10%" 
-alt="Meshery - the Cloud Native Manager" align="left" /></picture></a>
 As a self-service engineering platform, <a href="https://meshery.io">Meshery</a> enables collaborative design and operation of cloud native infrastructure. Through it's extension points, Meshery offers the ability to optionally plugin adapters in order to more deeply integrate with specific systems.
 <br /><br /><p align="center"><i>If you’re using Meshery or if you like the project, please <a href="https://github.com/meshery/meshery/stargazers">★</a> star this repository to show your support! 🤩</i></p>
 </p>
